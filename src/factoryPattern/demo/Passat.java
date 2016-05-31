@@ -1,6 +1,7 @@
 package factoryPattern.demo;
 
-//Konkretes Produkt
+//Konkretes Produkt (Concrete Product)
+//diese Klasse wird von der Factory Methode instanziiert
 public class Passat extends AbstraktesFahrzeug {
 
 	public Passat(int kw) {
