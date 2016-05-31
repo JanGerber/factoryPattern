@@ -1,6 +1,7 @@
 package factoryPattern.demo;
 
-// Konkreter Erzeuger
+//Konkreter Erzeuger(ConcreateCreator)
+//instanziiert die konkrete Klasse bzw. in userem Fall das konkrete Produkt
 public class Volkswagen extends AbstrakterHersteller {
 	
 	//Implementiert abstrakten Methode
