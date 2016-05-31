@@ -11,7 +11,7 @@ public class FactoryMethodMain {
 		AbstrakterHersteller vw = new Volkswagen();
 		AbstrakterHersteller bmw = new BMW();
 		
-		//Ausgabe der Fahrzeuge
+		//Ausgabe der Fahrzeuge der einzelenen Hersteller
 		for (AbstraktesFahrzeug fahrzeug : vw.getFahrzeuge()) {
 			System.out.println(fahrzeug.getHersteller() + " " 
 					+ fahrzeug.getModell() + " "
