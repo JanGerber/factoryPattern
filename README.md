@@ -10,4 +10,4 @@
 4. Konkrete Produkte
 <p>Der letzte Bestandteil des Factory Pattern ist die Implementierung des konkreten Produkts. Die konkreten Produkte sind dabei der I8, Golf und der Passa. Sie haben wiederum einen Konstruktor bei dem Sie dem Fahrzeug erste Fahrzeugdaten mitgeben. </p>
 5. Testen des implementierten Factory Pattern
-<p> </p>
+<p>Die Klasse FactoryMehodMain testet nun ob die Implementierung erfolgreich war und alle Funktionen vorhanden sind. Hierzu erstellt die Main Methode zuerst einen Objekt von Volkswagen und BMW  und gibt diese dann mithilfe einer for-Schleife aus. Sollte der Test erfolgreich durchlaufen sollte auf der Kommandozeilen die richtigen Autos ausgegeben werden.</p>
